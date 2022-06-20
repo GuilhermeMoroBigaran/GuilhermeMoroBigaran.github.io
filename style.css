@@ -1,0 +1,67 @@
+/*
+Requisitos
+
+Seu Portfólio Web deve ser estilizado usando as informações a seguir:
+
+Defina fontes diferentes para o seu nome e para a descrição que você criou;
+*/
+
+.name {
+    font-family: 'Times New Roman', Times, serif, serif;
+    font-style: italic;
+    font-size: 2.5em;
+    text-align: left;
+     }
+
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 1.5em;
+    text-align: left;
+    }
+
+.caption{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 1.2em;
+}
+
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align:justify;
+    }
+
+a, ul{ /*anchor text*/
+    color:#FBFBFF;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-style: oblique;
+    font-weight: 700;
+    line-height: 1.8em;
+    display: inline-block;
+}
+.subtitle{
+    text-align: center;
+    display: inline-block;
+}
+/*
+Defina uma cor base de background do seu Portfólio Web;
+*/
+body{
+    background-color: #3626A7;
+    color: #FBFBFF;
+}
+
+img{
+    text-align: left;
+}
+
+/*
+Altere o estilo das tags que você usou para destacar algumas informações, como sua nacionalidade e a cidade/estado onde mora;
+*/
+
+/*
+Coloque tamanhos diferentes para os elementos da lista de habilidades que você criou. Lembre-se de usar classes para cada um dos elementos;
+*/
